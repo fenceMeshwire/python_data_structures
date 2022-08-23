@@ -26,8 +26,8 @@ prices_sorted = sorted(zip(mat_prices.values(), mat_prices.keys()))
 print(prices_sorted)        # Returns a sorted list [(values, keys)]
 
 # Get the min and max of the dictionary
-min(mat_prices)     # Returns the key with minimum value
-max(mat_prices)     # Returns the key with maximum value
+min(mat_prices)            # Returns the key with minimum value
+max(mat_prices)            # Returns the key with maximum value
 
 min(mat_prices.values())
 min(mat_prices.keys())
