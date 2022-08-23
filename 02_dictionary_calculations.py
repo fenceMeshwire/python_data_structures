@@ -4,7 +4,7 @@
 
 # 02_dictionary_calculations.py
 
-material_prices = {
+mat_prices = {
    'copper': 30.50,
    'PVC': 21.95,
    'CPVC': 17.85,
@@ -12,19 +12,35 @@ material_prices = {
    'stainless steel': 45.69
 }
 
-type(material_prices.values())
-# <class 'dict_values'>
-type(material_prices.keys())
-# <class 'dict_keys'>
+type(mat_prices.values())   # <class 'dict_values'>
 
-# Return the lowest plumbing material price
-min_mat_price = min(zip(material_prices.values(), material_prices.keys()))
+type(mat_prices.keys())     # <class 'dict_keys'>
+
+min_mat_price = min(zip(mat_prices.values(), mat_prices.keys()))
+print(min_mat_price)        # Returns the minimum (value, key)
+
+max_mat_price = max(zip(mat_prices.values(), mat_prices.keys()))
+print(max_mat_price)        # Returns the maximum (value, key)
+
+prices_sorted = sorted(zip(mat_prices.values(), mat_prices.keys()))
+print(prices_sorted)        # Returns a sorted list [(values, keys)]
+
+# Get the min and max of the dictionary
+min(mat_prices)     # Returns the key with minimum value
+max(mat_prices)     # Returns the key with maximum value
+
+min(mat_prices.values())
+min(mat_prices.keys())
+
+max(mat_prices.values())
+max(mat_prices.keys())
+
+# Using the lambda function for determining min and max:
+min(mat_prices, key=lambda k:mat_prices[k])
+max(mat_prices, key=lambda k:mat_prices[k])
+
+min_mat_price = mat_prices[min(mat_prices, key=lambda k:mat_prices[k])]
+max_mat_price = mat_prices[max(mat_prices, key=lambda k:mat_prices[k])]
+
 print(min_mat_price)
-
-# Return the highest plumbing material price
-max_mat_price = max(zip(material_prices.values(), material_prices.keys()))
 print(max_mat_price)
-
-# Return of material prices in ascending order
-prices_sorted = sorted(zip(material_prices.values(), material_prices.keys()))
-print(prices_sorted)
