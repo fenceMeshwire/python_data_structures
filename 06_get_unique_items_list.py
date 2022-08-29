@@ -11,4 +11,5 @@ print(unicates_set)
 
 unicates_list = list(set(unicates_set))
 print(unicates_list)
+
 print(sorted(unicates_list))
