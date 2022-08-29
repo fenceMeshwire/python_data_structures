@@ -5,12 +5,20 @@
 # 03_using_collections_counter.py
 
 # Dependency
-import collections
+from collections import Counter
 
-letter_count = collections.Counter('Bubblegum')
-print(letter_count)
+letters_a = Counter('Bubblegum')
+letters_b = Counter('Chewbacca')
 
 # Define the number of most common elements
 mce = 3
-three_mc = letter_count.most_common(mce)
+three_mc = letters_a.most_common(mce)
 print(three_mc)
+
+# Combination
+combination = letters_a + letters_b
+print(combination)
+
+# Subtraction
+subtraction = letters_a - letters_b
+print(subtraction)
