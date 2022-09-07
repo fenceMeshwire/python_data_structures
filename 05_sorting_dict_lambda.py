@@ -16,3 +16,6 @@ print(stocks_by_stock)
 
 stocks_by_value = sorted(stocks, key=lambda v: v['value'])
 print(stocks_by_value)
+
+stocks_by_isin = sorted(stocks, key=lambda v: v['isin'])
+print(stocks_by_isin)
