@@ -2,6 +2,8 @@
 
 # Python 3.9.5
 
+# Purpose: Convert dictionaries to a XML file.
+
 # Dependencies
 from xml.etree.ElementTree import Element
 from xml.etree.ElementTree import tostring
