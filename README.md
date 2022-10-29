@@ -11,5 +11,5 @@
 <li>...</li>
 <li>...</li>
 <li>...</li>
-<li>Prop down integrated dictionaries to lists, keeping the values</li>
+<li>Prop down integrated dictionaries to lists, keeping the values without the keys.</li>
 </ol>
