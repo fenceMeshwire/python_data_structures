@@ -2,6 +2,10 @@
 
 # Python 3.9.5
 
+# 04_make_proxy_dictionary
+
+# Purpose: Create an immutable proxy dictionary.
+
 # Dependency
 from types import MappingProxyType
 
