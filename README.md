@@ -2,7 +2,7 @@
 <p></p>
 <ol>Brief overview of some data structures used in Python3 and how to access them.
 <li>...</li>
-<li>...</li>
+<li>Calculations with keys and values of a dictionary (02_dictionary_calculations.py)</li>
 <li>...</li>
 <li>...</li>
 <li>...</li>
