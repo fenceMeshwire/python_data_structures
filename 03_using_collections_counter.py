@@ -4,6 +4,8 @@
 
 # 03_using_collections_counter.py
 
+# Purpose: Using the counter from collections to count e.g. letters from a string.
+
 # Dependency
 from collections import Counter
 
