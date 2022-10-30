@@ -2,7 +2,9 @@
 
 # Python 3.9.5
 
-01_ordered_dictionary.py
+# 01_ordered_dictionary.py
+
+# Purpose: Create a dictionary from an ordered dictionary
 
 # Dependencies
 from collections import OrderedDict
