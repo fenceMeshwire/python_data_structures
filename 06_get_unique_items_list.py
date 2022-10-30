@@ -4,6 +4,8 @@
 
 # 06_get_unique_items_list.py
 
+# Purpose: Get a list of unique items from a list with duplicates
+
 duplicates = ['Paul', 'Jenny', 'Sally', 'James', 'Paul', 'Sam', 'Sam', 'Sally', 'Jenny']
 
 # First convert the list to a set, to get the unique items:
