@@ -6,7 +6,7 @@
 <li>...</li>
 <li>...</li>
 <li>...</li>
-<li>...</li>
+<li>Get a list of unique items from a list with duplicates (06_get_unique_items_list.py).</li>
 <li>...</li>
 <li>...</li>
 <li>...</li>
