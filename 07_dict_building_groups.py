@@ -4,6 +4,8 @@
 
 # 07_dict_building_groups.py
 
+# Purpose: Sort keys, values from dictionaries in a list to form groups (e.g. date, IP address).
+
 # Dependencies
 from operator import itemgetter
 from itertools import groupby
