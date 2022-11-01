@@ -7,7 +7,7 @@
 <li>Create an immutable proxy dictionary (04_make_proxy_dictionary.py).</li>
 <li>Sorting a list of dictionaries by their keys, values using the lambda function (05_sorting_dict_lambda.py).</li>
 <li>Get a list of unique items from a list with duplicates (06_get_unique_items_list.py).</li>
-<li>...</li>
+<li>Sort keys, values from dictionaries in a list to form groups, e.g. date, IP address (07_dict_building_groups.py).</li>
 <li>...</li>
 <li>...</li>
 <li>Convert dictionaries to a XML file (10_convert_dict_to_xml.py).</li>
