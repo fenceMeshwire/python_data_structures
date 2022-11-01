@@ -4,6 +4,8 @@
 
 # 09_export_integer_tuples.py
 
+# Purpose: Join each tuple from a list to a string.
+
 # Dependency 
 import os
 
