@@ -9,7 +9,7 @@
 <li>Get a list of unique items from a list with duplicates (06_get_unique_items_list.py).</li>
 <li>Sort keys, values from dictionaries in a list to form groups, e.g. date, IP address (07_dict_building_groups.py).</li>
 <li>Make an enumeration from a list (08_enumerate.py).</li>
-<li>...</li>
+<li>Join each tuple from a list to a string (09_export_integer_tuples.py).</li>
 <li>Convert dictionaries to a XML file (10_convert_dict_to_xml.py).</li>
 <li>Prop down integrated dictionaries to lists, keeping the values without the keys (11_prop_dict_to_list.py).</li>
 </ol>
