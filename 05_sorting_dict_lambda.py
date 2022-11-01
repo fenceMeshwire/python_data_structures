@@ -4,6 +4,8 @@
 
 # 05_sorting_dict_lambda.py
 
+# Purpose: Sorting a list of dictionaries by their keys, values using the lambda function.
+
 stocks = [
     {'stock': 'Unilever', 'value': 47, 'isin': 'GB00B10RZP78'},
     {'stock': 'Golden Ocean', 'value': 10, 'isin': 'BMG396372051'},
