@@ -4,6 +4,8 @@
 
 # 08_enumerate.py
 
+# Purpose: Make an enumeration from a list.
+
 # Enumerate a list object
 lst = ['Convertible', 'Coupe', 'Hatchback', 'MUV', 'Pickup Truck', 'SUV', 'Sedan']
 enum_lst = enumerate(lst)
