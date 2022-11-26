@@ -1,6 +1,6 @@
 <h4>python_data_structures</h4>
 <p></p>
-<ol>Brief overview of some data structures used in Python3 and how to access them.
+<ol><h5>Brief overview of some data structures used in Python3 and how to access them.</h5>
 <li>Create a dictionary from an ordered dictionary (01_ordered_dictionary.py).</li>
 <li>Calculations with keys and values of a dictionary (02_dictionary_calculations.py)</li>
 <li>Using the counter from collections to count e.g. letters from a string (03_using_collections_counter.py).</li>
