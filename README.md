@@ -12,4 +12,5 @@
 <li>Join each tuple from a list to a string (09_export_integer_tuples.py).</li>
 <li>Convert dictionaries to a XML file (10_convert_dict_to_xml.py).</li>
 <li>Prop down integrated dictionaries to lists, keeping the values without the keys (11_prop_dict_to_list.py).</li>
+<li>Create a mapped dictionary from a list, using the enumerate() method (12_create_mapped_dict.py).</li>
 </ol>
