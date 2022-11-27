@@ -2,7 +2,7 @@
 
 # Python 3.9.5
 
-# scramble_word_list.py
+# 13_scramble_word_list.py
 
 # Purpose: Mix up the words of a previously ordered list of words.
 
