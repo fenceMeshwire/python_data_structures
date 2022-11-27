@@ -13,4 +13,5 @@
 <li>Convert dictionaries to a XML file (10_convert_dict_to_xml.py).</li>
 <li>Prop down integrated dictionaries to lists, keeping the values without the keys (11_prop_dict_to_list.py).</li>
 <li>Create a mapped dictionary from a list, using the enumerate() method (12_create_mapped_dict.py).</li>
+<li>Mix up the words of a previously ordered list of words (scramble_word_list.py).</li>
 </ol>
